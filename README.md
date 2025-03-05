@@ -2,7 +2,7 @@
 
 ## O que está aplicação faz ?
 
-Este é um projeto de To-Do List desenvolvido em **React**, que permiti ao usuário adicionar, marcar como concluída e remover tarefas de forma simples e prática.
+Este é um projeto de To-Do List desenvolvido em **React**, que permite ao usuário adicionar, marcar como concluída e remover tarefas de forma simples e prática.
 
 ## Tecnologias Utilizadas
 

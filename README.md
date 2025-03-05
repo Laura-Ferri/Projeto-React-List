@@ -45,7 +45,7 @@ Este comando iniciará o servidor de desenvolvimento e abrirá a aplicação no 
 ## Estrutura do Projeto
 
 ```
-/meu-app
+/react-list
 │-- /src
 │   │-- App.js
 │   │-- App.css

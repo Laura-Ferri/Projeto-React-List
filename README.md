@@ -42,16 +42,15 @@ Este comando iniciará o servidor de desenvolvimento e abrirá a aplicação no 
 3. Para marcar uma tarefa como concluída clique na caixa de seleção em frente a tarefa.
 4. Para remover uma tarefa clique no ícone de lixeira e a mesma será excluída.
 
-## Estrutura do Projeto
+## Estrutura do Projeto (src)
 
 ```
 /react-list
 │-- /src
 │   │-- App.js
 │   │-- App.css
+|   |-- index.css
 │   │-- index.js
-│-- package.json
-│-- README.md
 ```
 
 ## Licença

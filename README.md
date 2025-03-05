@@ -15,8 +15,8 @@ Este é um projeto de To-Do List desenvolvido em **React**, que permiti ao usuá
 **1. Clonar o Repositório**
 
 ```sh
-git clone https://github.com/Laura-Ferri/React-List.git
-cd seu-repositorio
+git clone https://github.com/Laura-Ferri/Projeto-React-List.git
+cd react-list
 ```
 
 **2. Instalar Dependências**

@@ -1,0 +1,131 @@
+/* Estiliza o container principal */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eaf9ff;
+  color: #1b3957;
+}
+
+/* Caixa principal da To-Do List */
+.todo-box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+/* Estiliza o título */
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estiliza o campo de entrada e o botão */
+.input-container {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+
+/* Estiliza o campo de entrada */
+.input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  flex-grow: 1;
+  height: 40px;
+  font-size: 16px;
+  color: #1b3957;
+  background-color: #e0e0e0;
+}
+
+/* Define a cor do placeholder do input */
+.input::placeholder {
+  color: #3f5061;
+}
+
+/* Estiliza o botão de adicionar tarefa */
+.add-botao {
+  background-color: #02b1f1;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Muda a cor ao passar o mouse no botão */
+.add-botao:hover {
+  background-color: #6cccef;
+}
+
+/* Lista de tarefas */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Itens da lista de tarefas */
+.task-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 16px;
+  gap: 10px;
+}
+
+/* Estiliza a tarefa quando concluída */
+.task-item.concluida {
+  font-style: italic;
+  text-decoration: line-through;
+  color: #1b3957;
+}
+
+/* Estiliza o texto da tarefa concluída */
+.task-item.concluida .task-text {
+  font-style: italic;
+  text-decoration: none;
+  color: #1b3957;
+}
+
+/* Estiliza o checkbox para marcar as tarefas */
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(194, 194, 194);
+  background-color: white;
+  color: #1b3957;
+  cursor: pointer;
+  appearance: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+/* Muda a aparência do checkbox quando marcado */
+.checkbox:checked {
+  background-color: #02b1f1;
+  border-color: #02b1f1;
+}
+
+/* Estiliza o botão de deletar */
+.button-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: auto;
+}
